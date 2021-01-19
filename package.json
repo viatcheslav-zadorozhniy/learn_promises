@@ -1,0 +1,7 @@
+{
+  "name": "javascript-promises",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server -c-1"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All about Promises</title>
+  <style>
+    #example-code {
+      background-color: #eee;
+      border-radius: 3px;
+      display: block;
+      font-family: courier, monospace;
+      padding: 0.5rem 0.25rem;
+      white-space: pre;
+    }
+
+    #example-code:empty {
+      display: none;
+    }
+
+    .form-control {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-control">
+    <label for="promise-examples">Examples:</label>
+    <select id="promise-examples">
+      <option value="">Select</option>
+      <option value="init">Initializing</option>
+      <option value="event-loop">Event loop</option>
+      <option value="chains">Chains</option>
+      <option value="catch">Catch</option>
+      <option value="all">All</option>
+      <option value="all-settled">All settled</option>
+      <option value="finally">Finally</option>
+      <option value="race">Race</option>
+      <option value="async-and-await">Async and await</option>
+    </select>
+  </div>
+
+  <code id="example-code"></code>
+
+  <script src="main.js"></script>
+</body>
+</html>
